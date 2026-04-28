@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaFox - Master Languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">🦊 <strong>LinguaFox</strong></div>
+        <div>
+            <a href="index.html" class="active">Home</a>
+            <a href="grammar.html">Grammar</a>
+            <a href="reading.html">Reading</a>
+            <a href="listening.html">Listening</a>
+        </div>
+        <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+    </nav>
+
+    <div class="container">
+        <header class="card">
+            <h1>Welcome to LinguaFox 1.0</h1>
+            <p>Your interactive journey to language fluency starts here.</p>
+            <div id="progress-badge" style="margin-top:10px; color:var(--primary); font-weight:bold;"></div>
+        </header>
+
+        <div class="card">
+            <h2>Start Learning</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <a href="grammar.html" class="btn btn-primary">Beginner Grammar</a>
+                <a href="reading.html" class="btn btn-outline">Reading Practice</a>
+                <a href="listening.html" class="btn btn-outline">Listening Labs</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>&copy; 2024 LinguaFox Language Learning Hub</footer>
+    <script src="script.js"></script>
+</body>
+</html>
